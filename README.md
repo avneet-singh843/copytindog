@@ -1,1 +1,1 @@
-# copytindog
+TinDog Starting Files

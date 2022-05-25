@@ -1,0 +1,165 @@
+body {
+  font-family: 'Montserra';
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat-Bold';
+  font-weight: bold;
+}
+
+h3 {
+  margin-top: 10px;
+  font-size: 1.8rem;
+}
+
+/* TITLE */
+#title {
+  background-color: #ff4c68;
+  text-align: left;
+}
+
+.title-cont {
+  padding: 3% 15% 7%;
+}
+
+/* NAVIGATION BAR */
+.navbar {
+  padding: 0 0 4.5rem 0;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  color: white;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-style: 'Montserrat-light', sans-serif;
+}
+
+.big-heading {
+  color: white;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.down {
+  margin: 5% 3% 5% 0;
+}
+
+.title-image {
+  width: 23%;
+  position: absolute;
+  right: 20%;
+  transform: rotate(25deg);
+}
+
+/* FEATURES */
+#features {
+  position: relative;
+  padding: 7% 15%;
+  background-color: #fff;
+}
+
+.featurep {
+  color: #8f8f8f;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.icon {
+  color: #ef8172;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+#testimonials {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 10px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#press {
+  background-color: #ff4c68;
+  padding-bottom: 3%;
+}
+
+.press-img {
+  width: 15%;
+  padding: 2%;
+}
+
+/* PRICING SECTION */
+#pricing {
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.pricing-txt {
+  font-size: 3rem;
+  line-height: 1.5;
+  padding: 0 4rem 0;
+}
+
+/* MEDIA */
+@media (max-width:1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    width: 60%;
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* CALL TO ACTION */
+#cta {
+  background-color: #ff4c68;
+  color: #fff;
+  padding: 7% 15%;
+}
+
+.cta {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-family: Montserrat-bold;
+  font-weight: bold;
+}
+
+/* FOOTER */
+#footer {
+  background-color: #fff;
+  padding: 7% 15%;
+}
+
+.social-icon {
+  margin: 10px;
+}
